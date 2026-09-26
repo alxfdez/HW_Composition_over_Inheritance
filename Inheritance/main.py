@@ -1,5 +1,5 @@
 from HourlyEmployee import HourlyEmployee
-from withComission.SalariedEmployeeWithComission import SalariedEmployeeWithComission
+from withCommission.SalariedEmployeeWithCommission import SalariedEmployeeWithCommission
 
 
 def main() -> None:
@@ -17,5 +17,5 @@ def main() -> None:
         f"{sarah.name} landed {sarah.contracts_landed} contracts and earned ${sarah.compute_pay()}."
     )
 
-    if __name__ == "__main__":
-        main()
+if __name__ == "__main__":
+    main()

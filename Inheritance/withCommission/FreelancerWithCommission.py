@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from Freelancer import Freelancer
 
 @dataclass
-class FreelancerWithComission(Freelancer):
+class FreelancerWithCommission(Freelancer):
     """Freelancer al que se le paga por horas y que se lleva una comision."""
 
     commission: float = 100

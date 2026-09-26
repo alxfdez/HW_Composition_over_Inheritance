@@ -2,7 +2,7 @@ from dataclasses import dataclass
 from SalariedEmployee import SalariedEmployee
 
 @dataclass
-class SalariedEmployeeWithComission(SalariedEmployee):
+class SalariedEmployeeWithCommission(SalariedEmployee):
     """Empleado al que se le paga un salario mensual fijo y una comision."""
 
     commission: float = 100
