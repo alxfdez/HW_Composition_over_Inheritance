@@ -1,4 +1,4 @@
-from ContractComission import ContractCommission
+from ContractCommission import ContractCommission
 from HourlyContract import HourlyContract
 from SalariedContract import SalariedContract
 from FreelancerContract import FreelancerContract
