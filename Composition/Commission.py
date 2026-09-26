@@ -1,7 +1,6 @@
 from abc import ABC, abstractmethod
 from dataclasses import dataclass
 
-
 @dataclass
 class Commission(ABC):
     """Represents a commission payment process."""
